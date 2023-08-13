@@ -1,0 +1,50 @@
+h1{
+    color: #1877f2;
+    text-align: center;
+}
+
+button{
+    color: antiquewhite;
+    background-color: #1877f2;
+    text-align: center;
+}
+
+.submit{
+    text-align: center;
+}
+ h3{
+    text-align: center;
+}
+
+ p{
+    text-align: center ;
+ }
+
+ Div{
+    text-align: center;
+ }
+
+ /* input [type="text"]{
+    color: #1877f2;
+ } */
+
+.name{
+    color: #1877f2;
+}
+.password{
+    color: #1877f2;
+}
+
+H1:hover{
+    font-style: italic;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    color: #1877f2;
+}
+button:active{
+    background-color: green;
+    color: aliceblue;
+    
+}

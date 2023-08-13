@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <h1>APPLICATION FORM</h1>
+<br>
+<div>
+<form action="/action.php" method="POST">
+
+     <label for="name" Class="name">Name of the candidate:</label>
+     <input type="text" placeholder="name" id="name" name="name" required>
+
+ <br>
+     <label for="DOB" class="DOB">Date Of Birth:</label>
+      <input type="date" placeholder="DOB" id="DOB" name="dob" required>
+      
+    
+ <br>
+     <label for="email" class="email">Candidate's email address:</label>
+     <input type="email" placeholder="email" id="email" name="email" required>
+    
+ <br>
+     <label for="Application no." class="Application no.">Application number:</label>
+     <input type="text" placeholder="Application number" id="Application no." required>
+
+ <br>
+     <label for="state" class="State">State of the candidate:</label>
+     <select name="State" id="State" required>
+     <option value="select your state">select your state</option>
+     <option value="Andhra Pradesh">Andhra Pradesh</option>
+     <option value="Assam">Assam</option>
+     <option value="Bihar">Bihar</option>
+     <option value="Chattisgarh">Chattisgarh</option>
+     <option value="Goa">Goa</option>
+     <option value="Haryana">Haryana</option>
+     <option value="Himachal Pradesh">Himachal Pradesh</option>
+     <option value="Jharkhand">Jharkhand</option>
+     <option value="Karnataka">Karnataka</option>
+     <option value="Kerela">Kerela</option>
+     <option value="Madhya Pradesh">Madhya Pradesh</option>
+     <option value="Maharashtra">Maharashtra</option>
+     </select>
+
+ <br>
+ <br>
+     <button type="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+h1{
+    color: red;
+    text-decoration: wavy;
+    text-align: center;
+}
+div{
+    text-align: center;
+   
+}
+.name:hover{
+    color: red;
+}
+
+.DOB:hover{
+    color: red;
+}
+
+.email:hover{
+    color:red
+
+}
+
+.Application:hover{
+    color: red;
+    
+}
+.State:hover{
+    color: red;
+}
+
+button{
+    color: wheat;
+    background-color: red;
+
+
+}
